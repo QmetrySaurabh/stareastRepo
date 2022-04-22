@@ -1,0 +1,66 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "__index": 1,
+          "﻿username": "Bob",
+          "pass": "Bob",
+          "credit": "2000",
+          "debit": "30",
+          "url": "https://qas.qmetry.com/bank"
+        }
+      ],
+      "metaData": {
+        "author": "saurabhpisal",
+        "description": "",
+        "groups": [],
+        "lineNo": 0,
+        "name": "Android Login",
+        "referece": "",
+        "resultFileName": "Android Login",
+        "testSuiteName": "Mobile TS",
+        "sign": "",
+        "executedOn": "Local"
+      },
+      "dependsOn": [],
+      "startTime": 0,
+      "duration": 28189000000,
+      "result": "pass",
+      "passPer": 0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "__index": 2,
+          "﻿username": "Bob",
+          "pass": "Bob",
+          "credit": "3000",
+          "debit": "300",
+          "url": "https://qas.qmetry.com/bank-new"
+        }
+      ],
+      "metaData": {
+        "author": "saurabhpisal",
+        "description": "",
+        "groups": [],
+        "lineNo": 0,
+        "name": "Android Login",
+        "referece": "",
+        "resultFileName": "Android Login4p9vht",
+        "testSuiteName": "Mobile TS",
+        "sign": "",
+        "executedOn": "Local"
+      },
+      "dependsOn": [],
+      "startTime": 0,
+      "duration": 27682000000,
+      "result": "pass",
+      "passPer": 0
+    }
+  ]
+}

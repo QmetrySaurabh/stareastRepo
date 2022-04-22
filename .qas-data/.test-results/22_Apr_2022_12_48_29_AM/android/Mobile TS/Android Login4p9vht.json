@@ -1,0 +1,47 @@
+{
+  "seleniumLog": [],
+  "checkPoints": [
+    {
+      "message": "And sendKeys Bob into email",
+      "type": "TestStepPass",
+      "duration": 11031,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And sendKeys Bob into password",
+      "type": "TestStepPass",
+      "duration": 7202,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on sign.in",
+      "type": "TestStepPass",
+      "duration": 648,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on transacations",
+      "type": "TestStepPass",
+      "duration": 1166,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And sendKeys 3000 into enter.amount",
+      "type": "TestStepPass",
+      "duration": 7003,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on credit",
+      "type": "TestStepPass",
+      "duration": 632,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

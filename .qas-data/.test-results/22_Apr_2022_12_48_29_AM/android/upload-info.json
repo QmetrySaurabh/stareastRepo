@@ -1,0 +1,373 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Android Login",
+    "line": 9,
+    "id": "Android Login",
+    "description": "",
+    "tags": [],
+    "uri": "Mobile TS/Android Login",
+    "testSuiteName": "Mobile TS",
+    "type": "android",
+    "appName": "com.qmetry.bank.bankingapplication",
+    "capability": {
+      "command": "start",
+      "capObj": {
+        "perfectoServer": {
+          "host": "",
+          "securityToken": "",
+          "https": true
+        },
+        "lambdaServer": {
+          "username": "",
+          "accessToken": ""
+        },
+        "desiredCapabilities": {
+          "platformVersion": "",
+          "app": "",
+          "appPackage": "com.qmetry.bank.bankingapplication",
+          "appActivity": "com.qmetry.bank.bankingapplication.HomePageActivity",
+          "deviceName": "",
+          "udid": "emulator-5554",
+          "noReset": true,
+          "automationName": "UiAutomator2",
+          "browserName": "",
+          "fullReset": false,
+          "autoWebview": false,
+          "newCommandTimeout": "3000",
+          "idleTimeout": "3000",
+          "platformName": "Android"
+        },
+        "type": "automaticServer",
+        "host": "localhost",
+        "port": "4723",
+        "path": "/wd/hub",
+        "desiredCapabilitiesType": {
+          "platformVersion": "text",
+          "app": "path",
+          "appPackage": "text",
+          "appActivity": "text",
+          "deviceName": "text",
+          "udid": "text",
+          "noReset": "boolean",
+          "automationName": "text",
+          "browserName": "text",
+          "fullReset": "boolean",
+          "autoWebview": "boolean",
+          "newCommandTimeout": "number",
+          "idleTimeout": "number",
+          "platformName": "text"
+        }
+      },
+      "type": "android",
+      "isMobileWebOnDevice": false,
+      "name": "AndroidEmulator"
+    },
+    "desiredCapabilities": {
+      "platformVersion": "",
+      "app": "",
+      "appPackage": "com.qmetry.bank.bankingapplication",
+      "appActivity": "com.qmetry.bank.bankingapplication.HomePageActivity",
+      "deviceName": "",
+      "udid": "emulator-5554",
+      "noReset": true,
+      "automationName": "UiAutomator2",
+      "browserName": "",
+      "fullReset": false,
+      "autoWebview": false,
+      "newCommandTimeout": "3000",
+      "idleTimeout": "3000",
+      "platformName": "Android"
+    },
+    "elements": [
+      {
+        "id": "Android Login",
+        "keyword": "Scenario",
+        "line": 9,
+        "description": "",
+        "name": "Android Login",
+        "type": "scenario",
+        "executionStatus": "Passed",
+        "testData": "{\"__index\":1,\"﻿username\":\"Bob\",\"pass\":\"Bob\",\"credit\":\"2000\",\"debit\":\"30\",\"url\":\"https://qas.qmetry.com/bank\"}",
+        "tagName": [],
+        "capability": {
+          "command": "start",
+          "capObj": {
+            "perfectoServer": {
+              "host": "",
+              "securityToken": "",
+              "https": true
+            },
+            "lambdaServer": {
+              "username": "",
+              "accessToken": ""
+            },
+            "desiredCapabilities": {
+              "platformVersion": "",
+              "app": "",
+              "appPackage": "com.qmetry.bank.bankingapplication",
+              "appActivity": "com.qmetry.bank.bankingapplication.HomePageActivity",
+              "deviceName": "",
+              "udid": "emulator-5554",
+              "noReset": true,
+              "automationName": "UiAutomator2",
+              "browserName": "",
+              "fullReset": false,
+              "autoWebview": false,
+              "newCommandTimeout": "3000",
+              "idleTimeout": "3000",
+              "platformName": "Android"
+            },
+            "type": "automaticServer",
+            "host": "localhost",
+            "port": "4723",
+            "path": "/wd/hub",
+            "desiredCapabilitiesType": {
+              "platformVersion": "text",
+              "app": "path",
+              "appPackage": "text",
+              "appActivity": "text",
+              "deviceName": "text",
+              "udid": "text",
+              "noReset": "boolean",
+              "automationName": "text",
+              "browserName": "text",
+              "fullReset": "boolean",
+              "autoWebview": "boolean",
+              "newCommandTimeout": "number",
+              "idleTimeout": "number",
+              "platformName": "text"
+            }
+          },
+          "type": "android",
+          "isMobileWebOnDevice": false,
+          "name": "AndroidEmulator"
+        },
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 1,
+            "name": "sendKeys Bob into email",
+            "match": {
+              "location": "Android Login/01"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10990000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 2,
+            "name": "sendKeys Bob into password",
+            "match": {
+              "location": "Android Login/11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7203000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 3,
+            "name": "click on sign.in",
+            "match": {
+              "location": "Android Login/21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 647000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 4,
+            "name": "click on transacations",
+            "match": {
+              "location": "Android Login/31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1874000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 5,
+            "name": "sendKeys 2000 into enter.amount",
+            "match": {
+              "location": "Android Login/41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6840000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 6,
+            "name": "click on credit",
+            "match": {
+              "location": "Android Login/51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 635000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "Android Login",
+        "keyword": "Scenario",
+        "line": 9,
+        "description": "",
+        "name": "Android Login",
+        "type": "scenario",
+        "executionStatus": "Passed",
+        "testData": "{\"__index\":2,\"﻿username\":\"Bob\",\"pass\":\"Bob\",\"credit\":\"3000\",\"debit\":\"300\",\"url\":\"https://qas.qmetry.com/bank-new\"}",
+        "tagName": [],
+        "capability": {
+          "command": "start",
+          "capObj": {
+            "perfectoServer": {
+              "host": "",
+              "securityToken": "",
+              "https": true
+            },
+            "lambdaServer": {
+              "username": "",
+              "accessToken": ""
+            },
+            "desiredCapabilities": {
+              "platformVersion": "",
+              "app": "",
+              "appPackage": "com.qmetry.bank.bankingapplication",
+              "appActivity": "com.qmetry.bank.bankingapplication.HomePageActivity",
+              "deviceName": "",
+              "udid": "emulator-5554",
+              "noReset": true,
+              "automationName": "UiAutomator2",
+              "browserName": "",
+              "fullReset": false,
+              "autoWebview": false,
+              "newCommandTimeout": "3000",
+              "idleTimeout": "3000",
+              "platformName": "Android"
+            },
+            "type": "automaticServer",
+            "host": "localhost",
+            "port": "4723",
+            "path": "/wd/hub",
+            "desiredCapabilitiesType": {
+              "platformVersion": "text",
+              "app": "path",
+              "appPackage": "text",
+              "appActivity": "text",
+              "deviceName": "text",
+              "udid": "text",
+              "noReset": "boolean",
+              "automationName": "text",
+              "browserName": "text",
+              "fullReset": "boolean",
+              "autoWebview": "boolean",
+              "newCommandTimeout": "number",
+              "idleTimeout": "number",
+              "platformName": "text"
+            }
+          },
+          "type": "android",
+          "isMobileWebOnDevice": false,
+          "name": "AndroidEmulator"
+        },
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 1,
+            "name": "sendKeys Bob into email",
+            "match": {
+              "location": "Android Login/01"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11031000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 2,
+            "name": "sendKeys Bob into password",
+            "match": {
+              "location": "Android Login/11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7202000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 3,
+            "name": "click on sign.in",
+            "match": {
+              "location": "Android Login/21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 648000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 4,
+            "name": "click on transacations",
+            "match": {
+              "location": "Android Login/31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1166000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 5,
+            "name": "sendKeys 3000 into enter.amount",
+            "match": {
+              "location": "Android Login/41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7003000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 6,
+            "name": "click on credit",
+            "match": {
+              "location": "Android Login/51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 632000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

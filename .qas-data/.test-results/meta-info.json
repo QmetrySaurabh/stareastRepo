@@ -1,0 +1,29 @@
+{
+  "reports": [
+    {
+      "name": "Mobile TS",
+      "dir": ".qas-data/.test-results/22_Apr_2022_12_48_29_AM",
+      "startTime": 1650606509972
+    },
+    {
+      "name": "Web TS",
+      "dir": ".qas-data/.test-results/22_Apr_2022_12_45_56_AM",
+      "startTime": 1650606356717
+    },
+    {
+      "name": "Mobile Web",
+      "dir": ".qas-data/.test-results/22_Apr_2022_12_43_35_AM",
+      "startTime": 1650606215307
+    },
+    {
+      "name": "Mobile Web",
+      "dir": ".qas-data/.test-results/22_Apr_2022_12_43_16_AM",
+      "startTime": 1650606196403
+    },
+    {
+      "name": "Web TS",
+      "dir": ".qas-data/.test-results/22_Apr_2022_12_34_38_AM",
+      "startTime": 1650605678720
+    }
+  ]
+}

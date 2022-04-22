@@ -1,0 +1,13 @@
+{
+  "name": "Test Suites",
+  "status": "",
+  "tests": [
+    "android"
+  ],
+  "total": 0,
+  "pass": 2,
+  "fail": 0,
+  "skip": 0,
+  "startTime": 11031000000,
+  "endTime": 632000000
+}

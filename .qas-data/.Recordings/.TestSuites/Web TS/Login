@@ -1,0 +1,294 @@
+{
+    "steps": [
+        {
+            "indexColumn": "",
+            "command": "ShrdLogin",
+            "element": "",
+            "input": "${username},${pass}",
+            "status": "NotRun",
+            "eArray": [],
+            "elementKey": "",
+            "elementDesc": "",
+            "shared": true,
+            "length": 6,
+            "@@mycolor": null,
+            "isEncrypted": false,
+            "isDisplay": false
+        },
+        {
+            "command": "Click",
+            "element": "button.logout",
+            "eArray": [
+                [
+                    "xpath=//button",
+                    "xpath:position"
+                ],
+                [
+                    "css=button.btn.btn-success",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Name:'])[1]/preceding::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=//button[text()='Log Out']",
+                    "xpath:innerText"
+                ],
+                [
+                    "button.logout",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "button.logout",
+            "elementDesc": "Button logout",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null,
+            "arg": "{\"__index\":3,\"﻿username\":\"saurabh\",\"pass\":\"Saurabh\",\"credit\":\"3000\",\"debit\":\"30\",\"url\":\"https://parabank.parasoft.com\"}",
+            "tcId": "3",
+            "tsId": 2,
+            "testData": true,
+            "tdId": 3,
+            "duration": 534000000,
+            "executedOn": "2022-04-22T05:45:49.321Z",
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Verify Present",
+            "element": "button.btnlogin",
+            "eArray": [
+                [
+                    "id=btnLogin",
+                    "id"
+                ],
+                [
+                    "xpath=//button",
+                    "xpath:position"
+                ],
+                [
+                    "css=#btnLogin",
+                    "css"
+                ],
+                [
+                    "xpath=//label[text()='Password']//following::button",
+                    "xpath:nearLabel"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password is required'])[1]/following::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=//button[text()='Login']",
+                    "xpath:innerText"
+                ],
+                [
+                    "button.btnlogin",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "button.btnlogin",
+            "elementDesc": "Button btnLogin",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null,
+            "arg": "{\"__index\":3,\"﻿username\":\"saurabh\",\"pass\":\"Saurabh\",\"credit\":\"3000\",\"debit\":\"30\",\"url\":\"https://parabank.parasoft.com\"}",
+            "tcId": "3",
+            "tsId": 2,
+            "testData": true,
+            "tdId": 3,
+            "duration": 516000000,
+            "executedOn": "2022-04-22T05:45:49.837Z",
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Click",
+            "element": "h2.qmetrybanklogin",
+            "eArray": [
+                [
+                    "xpath=//h2",
+                    "xpath:position"
+                ],
+                [
+                    "css=h2",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/preceding::h2[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Username is required'])[1]/preceding::h2[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=//h2[text()='QMetry Bank Login']",
+                    "xpath:innerText"
+                ],
+                [
+                    "h2.qmetrybanklogin",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "h2.qmetrybanklogin",
+            "elementDesc": "H2 qmetrybanklogin",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null,
+            "arg": "{\"__index\":3,\"﻿username\":\"saurabh\",\"pass\":\"Saurabh\",\"credit\":\"3000\",\"debit\":\"30\",\"url\":\"https://parabank.parasoft.com\"}",
+            "tcId": "3",
+            "tsId": 2,
+            "testData": true,
+            "tdId": 3,
+            "duration": 565000000,
+            "executedOn": "2022-04-22T05:45:50.402Z",
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Drag And Drop",
+            "element": "h2.qmetrybanklogin",
+            "eArray": [
+                [
+                    "xpath=//h2",
+                    "xpath:position"
+                ],
+                [
+                    "css=h2",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/preceding::h2[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Username is required'])[1]/preceding::h2[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=//h2[text()='QMetry Bank Login']",
+                    "xpath:innerText"
+                ],
+                [
+                    "h2.qmetrybanklogin",
+                    "key"
+                ]
+            ],
+            "input": "-262,-11",
+            "status": "NotRun",
+            "elementKey": "h2.qmetrybanklogin",
+            "elementDesc": "H2 qmetrybanklogin",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null,
+            "arg": "{\"__index\":3,\"﻿username\":\"saurabh\",\"pass\":\"Saurabh\",\"credit\":\"3000\",\"debit\":\"30\",\"url\":\"https://parabank.parasoft.com\"}",
+            "tcId": "3",
+            "tsId": 2,
+            "testData": true,
+            "tdId": 3,
+            "duration": 723000000,
+            "executedOn": "2022-04-22T05:45:51.125Z",
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Verify Text",
+            "element": "h2.qmetrybanklogin",
+            "eArray": [
+                [
+                    "xpath=//h2",
+                    "xpath:position"
+                ],
+                [
+                    "css=h2",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/preceding::h2[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Username is required'])[1]/preceding::h2[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=//h2[text()='QMetry Bank Login']",
+                    "xpath:innerText"
+                ],
+                [
+                    "h2.qmetrybanklogin",
+                    "key"
+                ]
+            ],
+            "input": "QMetry Bank Login",
+            "status": "NotRun",
+            "elementKey": "h2.qmetrybanklogin",
+            "elementDesc": "H2 qmetrybanklogin",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null,
+            "arg": "{\"__index\":3,\"﻿username\":\"saurabh\",\"pass\":\"Saurabh\",\"credit\":\"3000\",\"debit\":\"30\",\"url\":\"https://parabank.parasoft.com\"}",
+            "tcId": "3",
+            "tsId": 2,
+            "testData": true,
+            "tdId": 3,
+            "duration": 533000000,
+            "executedOn": "2022-04-22T05:45:51.658Z",
+            "expected": "QMetry Bank Login",
+            "actual": "QMetry Bank Login",
+            "errMessage": "",
+            "isRowExpanded": false
+        }
+    ],
+    "type": "web",
+    "capabilities": {
+        "remoteUrl": "https://qas.qmetry.com/bank",
+        "type": "web",
+        "selectBrowser": "chrome",
+        "selectDevice": "",
+        "isRemote": false,
+        "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+        "isDebugMode": false,
+        "details": {
+            "deviceMetrics": {
+                "name": "",
+                "width": "",
+                "height": "",
+                "pixelRatio": "",
+                "userAgent": ""
+            }
+        }
+    },
+    "testData": "Users/saurabhpisal/Documents/QAS/Test Data.csv",
+    "testDataExample": [],
+    "isTCValid": true,
+    "externalTestData": true,
+    "dbDetails": {},
+    "recordSessionType": "multiple",
+    "tags": [],
+    "description": "",
+    "shared": true,
+    "executionStatus": "NotRun"
+}

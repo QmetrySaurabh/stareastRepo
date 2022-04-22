@@ -1,0 +1,89 @@
+{
+  "seleniumLog": [],
+  "checkPoints": [
+    {
+      "message": " ShrdMobileLogin",
+      "type": "TestStepFail",
+      "duration": null,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on link..accounts.",
+      "type": "TestStep",
+      "duration": null,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on html.jobroleautomationengineerlogoutbobsavingaccountaccountsuseridbobnamebobemailbob.qmetry.comphone1234567890totalavailablebalance65194accountopeningdate15aug2012checkmybalancewithdrawnwithdrawndepositedeposite",
+      "type": "TestStep",
+      "duration": null,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And Drag And Drop html.jobroleautomationengineerlogoutbobsavingaccountaccountsuseridbobnamebobemailbob.qmetry.comphone1234567890totalavailablebalance65194accountopeningdate15aug2012checkmybalancewithdrawnwithdrawndepositedeposite_1 xpath=//html",
+      "type": "TestStep",
+      "duration": null,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And clear number.txtdeposite",
+      "type": "TestStep",
+      "duration": null,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And sendKeys ${credit} into number.txtdeposite",
+      "type": "TestStep",
+      "duration": null,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on button.btndeposite",
+      "type": "TestStep",
+      "duration": null,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on div.personal-tab",
+      "type": "TestStep",
+      "duration": null,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And clear number.txtwithdrawn",
+      "type": "TestStep",
+      "duration": null,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And sendKeys ${debit} into number.txtwithdrawn",
+      "type": "TestStep",
+      "duration": null,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on button.btnwithdrawn",
+      "type": "TestStep",
+      "duration": null,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on button.logout",
+      "type": "TestStep",
+      "duration": null,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

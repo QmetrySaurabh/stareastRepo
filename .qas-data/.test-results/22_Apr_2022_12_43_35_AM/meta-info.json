@@ -1,0 +1,11 @@
+{
+  "name": "Test Suites",
+  "status": "",
+  "tests": [
+    "mobileweb"
+  ],
+  "total": 0,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0
+}

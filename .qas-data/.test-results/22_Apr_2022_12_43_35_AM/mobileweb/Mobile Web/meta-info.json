@@ -1,0 +1,26 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "author": "saurabhpisal",
+        "description": "",
+        "groups": [],
+        "lineNo": 0,
+        "name": "credit",
+        "referece": "",
+        "resultFileName": "credit",
+        "testSuiteName": "Mobile Web",
+        "sign": "",
+        "executedOn": "Local"
+      },
+      "dependsOn": [],
+      "startTime": 0,
+      "duration": null,
+      "result": "fail",
+      "passPer": 0
+    }
+  ]
+}

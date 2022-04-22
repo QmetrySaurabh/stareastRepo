@@ -1,0 +1,38 @@
+{
+  "total": 3,
+  "pass": 3,
+  "fail": 0,
+  "skip": 0,
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "takesScreenshot": "false",
+      "javascriptEnabled": "true",
+      "cssSelectorsEnabled": "true",
+      "platform": "darwin",
+      "browserName": "chrome"
+    },
+    "browser-actual-capabilities": {
+      "takesScreenshot": "false",
+      "javascriptEnabled": "true",
+      "cssSelectorsEnabled": "true",
+      "platform": "darwin",
+      "browserName": "chrome"
+    },
+    "isfw-build-info": {},
+    "run-parameters": {
+      "resources": "resources/testdata",
+      "scenario.file.loc": "scenarios/web"
+    },
+    "execution-env-info": {
+      "host": "Saurabhs-MacBook-Pro.local",
+      "os.name": "macOS Monterey",
+      "user.name": "saurabhpisal",
+      "os.version": "21.4.0"
+    }
+  },
+  "classes": [
+    "Web TS"
+  ],
+  "startTime": 0,
+  "endTime": 0
+}

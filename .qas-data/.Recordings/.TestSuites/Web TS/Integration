@@ -1,0 +1,14 @@
+{
+    "steps": [],
+    "type": "",
+    "capabilities": {},
+    "testDataExample": [],
+    "isTCValid": true,
+    "externalTestData": false,
+    "dbDetails": {},
+    "recordSessionType": "multiple",
+    "tags": [],
+    "description": "",
+    "shared": false,
+    "executionStatus": "NotRun"
+}

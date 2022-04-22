@@ -1,0 +1,48 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 1,
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "takesScreenshot": "false",
+      "javascriptEnabled": "true",
+      "cssSelectorsEnabled": "true",
+      "platformVersion": "",
+      "app": "",
+      "appPackage": "com.qmetry.bank.bankingapplication",
+      "appActivity": "com.qmetry.bank.bankingapplication.HomePageActivity",
+      "deviceName": "iPhone X",
+      "udid": "emulator-5554",
+      "noReset": "true",
+      "automationName": "UiAutomator2",
+      "browserName": "-mob",
+      "fullReset": "false",
+      "autoWebview": "false",
+      "newCommandTimeout": "3000",
+      "idleTimeout": "3000",
+      "platformName": "Android",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1",
+      "pixelRatio": 3,
+      "deviceWidth": 375,
+      "deviceHeight": 812
+    },
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {},
+    "run-parameters": {
+      "resources": "resources/testdata",
+      "scenario.file.loc": "scenarios/web"
+    },
+    "execution-env-info": {
+      "host": "Saurabhs-MacBook-Pro.local",
+      "os.name": "macOS Monterey",
+      "user.name": "saurabhpisal",
+      "os.version": "21.4.0"
+    }
+  },
+  "classes": [
+    "Mobile Web"
+  ],
+  "startTime": 0,
+  "endTime": 0
+}

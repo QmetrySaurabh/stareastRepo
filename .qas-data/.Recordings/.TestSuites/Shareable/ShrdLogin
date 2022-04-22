@@ -1,0 +1,267 @@
+{
+    "steps": [
+        {
+            "command": "Clear",
+            "element": "text.txtusername",
+            "eArray": [
+                [
+                    "id=txtUsername",
+                    "id"
+                ],
+                [
+                    "xpath=//input",
+                    "xpath:position"
+                ],
+                [
+                    "css=#txtUsername",
+                    "css"
+                ],
+                [
+                    "xpath=//label[text()='Username']//following::input",
+                    "xpath:nearLabel"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='QMetry Bank Login'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::input[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "text.txtusername",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "text.txtusername",
+            "elementDesc": "Input for txtUsername",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null,
+            "tcId": 21,
+            "isSharable": true
+        },
+        {
+            "command": "Type",
+            "element": "text.txtusername",
+            "eArray": [
+                [
+                    "text.txtusername",
+                    "key"
+                ],
+                [
+                    "id=txtUsername",
+                    "id"
+                ],
+                [
+                    "xpath=//input",
+                    "xpath:position"
+                ],
+                [
+                    "css=#txtUsername",
+                    "css"
+                ],
+                [
+                    "xpath=//label[text()='Username']//following::input",
+                    "xpath:nearLabel"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='QMetry Bank Login'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::input[2]",
+                    "xpath:neighbor"
+                ]
+            ],
+            "input": "${username}",
+            "status": "NotRun",
+            "elementKey": "text.txtusername",
+            "elementDesc": "Input for txtUsername",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null,
+            "tcId": 21,
+            "isSharable": true
+        },
+        {
+            "command": "Clear",
+            "element": "password.txtpassword",
+            "eArray": [
+                [
+                    "id=txtPassword",
+                    "id"
+                ],
+                [
+                    "xpath=//div[2]/input",
+                    "xpath:position"
+                ],
+                [
+                    "css=#txtPassword",
+                    "css"
+                ],
+                [
+                    "xpath=//label[text()='Password']//following::input",
+                    "xpath:nearLabel"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::input[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "password.txtpassword",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "password.txtpassword",
+            "elementDesc": "txtPassword password",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null,
+            "tcId": 21,
+            "isSharable": true
+        },
+        {
+            "command": "Type",
+            "element": "password.txtpassword",
+            "eArray": [
+                [
+                    "password.txtpassword",
+                    "key"
+                ],
+                [
+                    "id=txtPassword",
+                    "id"
+                ],
+                [
+                    "xpath=//div[2]/input",
+                    "xpath:position"
+                ],
+                [
+                    "css=#txtPassword",
+                    "css"
+                ],
+                [
+                    "xpath=//label[text()='Password']//following::input",
+                    "xpath:nearLabel"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::input[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ]
+            ],
+            "input": "${pass}",
+            "status": "NotRun",
+            "elementKey": "password.txtpassword",
+            "elementDesc": "txtPassword password",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null,
+            "tcId": 21,
+            "isSharable": true
+        },
+        {
+            "command": "Click",
+            "element": "button.btnlogin",
+            "eArray": [
+                [
+                    "id=btnLogin",
+                    "id"
+                ],
+                [
+                    "xpath=//button",
+                    "xpath:position"
+                ],
+                [
+                    "css=#btnLogin",
+                    "css"
+                ],
+                [
+                    "xpath=//label[text()='Password']//following::button",
+                    "xpath:nearLabel"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=//button[text()='Login']",
+                    "xpath:innerText"
+                ],
+                [
+                    "button.btnlogin",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "button.btnlogin",
+            "elementDesc": "Button btnLogin",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null,
+            "tcId": 21,
+            "isSharable": true
+        }
+    ],
+    "type": "",
+    "capabilities": {},
+    "testDataExample": [],
+    "isTCValid": true,
+    "externalTestData": false,
+    "recordSessionType": "multiple",
+    "tags": [],
+    "description": "",
+    "shared": false,
+    "executionStatus": "NotRun"
+}

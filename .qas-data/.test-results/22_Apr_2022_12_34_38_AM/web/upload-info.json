@@ -1,0 +1,359 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 13,
+    "id": "Login",
+    "description": "",
+    "tags": [],
+    "uri": "Web TS/Login",
+    "testSuiteName": "Web TS",
+    "type": "web",
+    "appName": "chrome",
+    "capability": {
+      "remoteUrl": "https://qas.qmetry.com/bank",
+      "type": "web",
+      "selectBrowser": "chrome",
+      "selectDevice": "",
+      "isRemote": false,
+      "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+      "isDebugMode": false,
+      "details": {
+        "deviceMetrics": {
+          "name": "",
+          "width": "",
+          "height": "",
+          "pixelRatio": "",
+          "userAgent": ""
+        }
+      }
+    },
+    "desiredCapabilities": {},
+    "elements": [
+      {
+        "id": "Login",
+        "keyword": "Scenario",
+        "line": 13,
+        "description": "",
+        "name": "Login",
+        "type": "scenario",
+        "executionStatus": "Passed",
+        "testData": "{\"__index\":1,\"﻿username\":\"Bob\",\"pass\":\"Bob\",\"credit\":\"2000\",\"debit\":\"30\",\"url\":\"https://qas.qmetry.com/bank\"}",
+        "tagName": [],
+        "capability": {
+          "remoteUrl": "https://qas.qmetry.com/bank",
+          "type": "web",
+          "selectBrowser": "chrome",
+          "selectDevice": "",
+          "isRemote": false,
+          "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+          "isDebugMode": false,
+          "details": {
+            "deviceMetrics": {
+              "name": "",
+              "width": "",
+              "height": "",
+              "pixelRatio": "",
+              "userAgent": ""
+            }
+          }
+        },
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "",
+            "line": 1,
+            "name": "ShrdLogin",
+            "match": {
+              "location": "Login/01"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 2,
+            "name": "click on button.logout",
+            "match": {
+              "location": "Login/11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 556000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 3,
+            "name": "verify presence of button.btnlogin",
+            "match": {
+              "location": "Login/21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 514000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 4,
+            "name": "click on h2.qmetrybanklogin",
+            "match": {
+              "location": "Login/31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 543000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 5,
+            "name": "Drag And Drop h2.qmetrybanklogin -262,-11",
+            "match": {
+              "location": "Login/41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 723000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 6,
+            "name": "verify text of h2.qmetrybanklogin is QMetry Bank Login",
+            "match": {
+              "location": "Login/51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 525000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "Login",
+        "keyword": "Scenario",
+        "line": 13,
+        "description": "",
+        "name": "Login",
+        "type": "scenario",
+        "executionStatus": "Passed",
+        "testData": "{\"__index\":2,\"﻿username\":\"Bob\",\"pass\":\"Bob\",\"credit\":\"3000\",\"debit\":\"300\",\"url\":\"https://qas.qmetry.com/bank-new\"}",
+        "tagName": [],
+        "capability": {
+          "remoteUrl": "https://qas.qmetry.com/bank",
+          "type": "web",
+          "selectBrowser": "chrome",
+          "selectDevice": "",
+          "isRemote": false,
+          "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+          "isDebugMode": false,
+          "details": {
+            "deviceMetrics": {
+              "name": "",
+              "width": "",
+              "height": "",
+              "pixelRatio": "",
+              "userAgent": ""
+            }
+          }
+        },
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "",
+            "line": 1,
+            "name": "ShrdLogin",
+            "match": {
+              "location": "Login/01"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 2,
+            "name": "click on button.logout",
+            "match": {
+              "location": "Login/11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 549000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 3,
+            "name": "verify presence of button.btnlogin",
+            "match": {
+              "location": "Login/21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 520000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 4,
+            "name": "click on h2.qmetrybanklogin",
+            "match": {
+              "location": "Login/31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 544000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 5,
+            "name": "Drag And Drop h2.qmetrybanklogin -262,-11",
+            "match": {
+              "location": "Login/41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 724000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 6,
+            "name": "verify text of h2.qmetrybanklogin is QMetry Bank Login",
+            "match": {
+              "location": "Login/51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 528000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "Login",
+        "keyword": "Scenario",
+        "line": 13,
+        "description": "",
+        "name": "Login",
+        "type": "scenario",
+        "executionStatus": "Passed",
+        "testData": "{\"__index\":3,\"﻿username\":\"saurabh\",\"pass\":\"Saurabh\",\"credit\":\"3000\",\"debit\":\"30\",\"url\":\"https://parabank.parasoft.com\"}",
+        "tagName": [],
+        "capability": {
+          "remoteUrl": "https://qas.qmetry.com/bank",
+          "type": "web",
+          "selectBrowser": "chrome",
+          "selectDevice": "",
+          "isRemote": false,
+          "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+          "isDebugMode": false,
+          "details": {
+            "deviceMetrics": {
+              "name": "",
+              "width": "",
+              "height": "",
+              "pixelRatio": "",
+              "userAgent": ""
+            }
+          }
+        },
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "",
+            "line": 1,
+            "name": "ShrdLogin",
+            "match": {
+              "location": "Login/01"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 2,
+            "name": "click on button.logout",
+            "match": {
+              "location": "Login/11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 535000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 3,
+            "name": "verify presence of button.btnlogin",
+            "match": {
+              "location": "Login/21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 515000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 4,
+            "name": "click on h2.qmetrybanklogin",
+            "match": {
+              "location": "Login/31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 543000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 5,
+            "name": "Drag And Drop h2.qmetrybanklogin -262,-11",
+            "match": {
+              "location": "Login/41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 721000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 6,
+            "name": "verify text of h2.qmetrybanklogin is QMetry Bank Login",
+            "match": {
+              "location": "Login/51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 526000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

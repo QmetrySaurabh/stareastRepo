@@ -1,0 +1,47 @@
+{
+  "seleniumLog": [],
+  "checkPoints": [
+    {
+      "message": " ShrdLogin",
+      "type": "TestStepPass",
+      "duration": null,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on button.logout",
+      "type": "TestStepPass",
+      "duration": 556,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then verify presence of button.btnlogin",
+      "type": "TestStepPass",
+      "duration": 514,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on h2.qmetrybanklogin",
+      "type": "TestStepPass",
+      "duration": 543,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And Drag And Drop h2.qmetrybanklogin -262,-11",
+      "type": "TestStepPass",
+      "duration": 723,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then verify text of h2.qmetrybanklogin is QMetry Bank Login",
+      "type": "TestStepPass",
+      "duration": 525,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

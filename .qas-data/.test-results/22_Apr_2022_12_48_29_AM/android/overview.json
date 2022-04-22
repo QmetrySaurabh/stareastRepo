@@ -1,0 +1,62 @@
+{
+  "total": 2,
+  "pass": 2,
+  "fail": 0,
+  "skip": 0,
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "takesScreenshot": "false",
+      "javascriptEnabled": "true",
+      "cssSelectorsEnabled": "true",
+      "platformVersion": "",
+      "app": "",
+      "appPackage": "com.qmetry.bank.bankingapplication",
+      "appActivity": "com.qmetry.bank.bankingapplication.HomePageActivity",
+      "deviceName": "android",
+      "udid": "emulator-5554",
+      "noReset": "true",
+      "automationName": "UiAutomator2",
+      "browserName": "",
+      "fullReset": "false",
+      "autoWebview": "false",
+      "newCommandTimeout": "3000",
+      "idleTimeout": "3000",
+      "platformName": "Android"
+    },
+    "browser-actual-capabilities": {
+      "takesScreenshot": "false",
+      "javascriptEnabled": "true",
+      "cssSelectorsEnabled": "true",
+      "platformVersion": "",
+      "app": "",
+      "appPackage": "com.qmetry.bank.bankingapplication",
+      "appActivity": "com.qmetry.bank.bankingapplication.HomePageActivity",
+      "deviceName": "",
+      "udid": "emulator-5554",
+      "noReset": "true",
+      "automationName": "UiAutomator2",
+      "browserName": "",
+      "fullReset": "false",
+      "autoWebview": "false",
+      "newCommandTimeout": "3000",
+      "idleTimeout": "3000",
+      "platformName": "Android"
+    },
+    "isfw-build-info": {},
+    "run-parameters": {
+      "resources": "resources/testdata",
+      "scenario.file.loc": "scenarios/android"
+    },
+    "execution-env-info": {
+      "host": "Saurabhs-MacBook-Pro.local",
+      "os.name": "macOS Monterey",
+      "user.name": "saurabhpisal",
+      "os.version": "21.4.0"
+    }
+  },
+  "classes": [
+    "Mobile TS"
+  ],
+  "startTime": 0,
+  "endTime": 0
+}

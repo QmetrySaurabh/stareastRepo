@@ -1,0 +1,308 @@
+{
+    "steps": [
+        {
+            "command": "Type",
+            "element": "email",
+            "eArray": [
+                [
+                    "email",
+                    "key"
+                ],
+                [
+                    "accessibility id=email",
+                    "accessibility id"
+                ],
+                [
+                    "id=com.qmetry.bank.bankingapplication:id/email",
+                    "id"
+                ],
+                [
+                    "xpath=//android.widget.EditText[@content-desc='email']",
+                    "xpath"
+                ]
+            ],
+            "input": "${username}",
+            "status": "NotRun",
+            "elementKey": "email",
+            "elementDesc": "email",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null,
+            "arg": "{\"__index\":2,\"﻿username\":\"Bob\",\"pass\":\"Bob\",\"credit\":\"3000\",\"debit\":\"300\",\"url\":\"https://qas.qmetry.com/bank-new\"}",
+            "tcId": "9",
+            "tsId": 8,
+            "testData": true,
+            "tdId": 2,
+            "duration": 11031000000,
+            "executedOn": "2022-04-22T05:46:55.204Z",
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Type",
+            "element": "password",
+            "eArray": [
+                [
+                    "password",
+                    "key"
+                ],
+                [
+                    "accessibility id=password",
+                    "accessibility id"
+                ],
+                [
+                    "id=com.qmetry.bank.bankingapplication:id/password",
+                    "id"
+                ],
+                [
+                    "xpath=//android.widget.EditText[@content-desc='password']",
+                    "xpath"
+                ]
+            ],
+            "input": "${pass}",
+            "status": "NotRun",
+            "elementKey": "password",
+            "elementDesc": "password",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null,
+            "arg": "{\"__index\":2,\"﻿username\":\"Bob\",\"pass\":\"Bob\",\"credit\":\"3000\",\"debit\":\"300\",\"url\":\"https://qas.qmetry.com/bank-new\"}",
+            "tcId": "9",
+            "tsId": 8,
+            "testData": true,
+            "tdId": 2,
+            "duration": 7202000000,
+            "executedOn": "2022-04-22T05:47:02.406Z",
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Click",
+            "element": "sign.in",
+            "eArray": [
+                [
+                    "accessibility id=signIn",
+                    "accessibility id"
+                ],
+                [
+                    "id=com.qmetry.bank.bankingapplication:id/email_sign_in_button",
+                    "id"
+                ],
+                [
+                    "xpath=//android.widget.Button[@content-desc='signIn']",
+                    "xpath"
+                ],
+                [
+                    "sign.in",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "sign.in",
+            "elementDesc": "sign.in",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null,
+            "arg": "{\"__index\":2,\"﻿username\":\"Bob\",\"pass\":\"Bob\",\"credit\":\"3000\",\"debit\":\"300\",\"url\":\"https://qas.qmetry.com/bank-new\"}",
+            "tcId": "9",
+            "tsId": 8,
+            "testData": true,
+            "tdId": 2,
+            "duration": 648000000,
+            "executedOn": "2022-04-22T05:47:03.054Z",
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Click",
+            "element": "transacations",
+            "eArray": [
+                [
+                    "accessibility id=transacations",
+                    "accessibility id"
+                ],
+                [
+                    "id=com.qmetry.bank.bankingapplication:id/transactions",
+                    "id"
+                ],
+                [
+                    "xpath=//android.widget.Button[@content-desc='transacations']",
+                    "xpath"
+                ],
+                [
+                    "transacations",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "transacations",
+            "elementDesc": "transacations",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null,
+            "arg": "{\"__index\":2,\"﻿username\":\"Bob\",\"pass\":\"Bob\",\"credit\":\"3000\",\"debit\":\"300\",\"url\":\"https://qas.qmetry.com/bank-new\"}",
+            "tcId": "9",
+            "tsId": 8,
+            "testData": true,
+            "tdId": 2,
+            "duration": 1166000000,
+            "executedOn": "2022-04-22T05:47:04.220Z",
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Type",
+            "element": "enter.amount",
+            "eArray": [
+                [
+                    "enter.amount",
+                    "key"
+                ],
+                [
+                    "accessibility id=enterAmount",
+                    "accessibility id"
+                ],
+                [
+                    "id=com.qmetry.bank.bankingapplication:id/amount",
+                    "id"
+                ],
+                [
+                    "xpath=//android.widget.EditText[@content-desc='enterAmount']",
+                    "xpath"
+                ]
+            ],
+            "input": "${credit}",
+            "status": "NotRun",
+            "elementKey": "enter.amount",
+            "elementDesc": "enter.amount",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null,
+            "arg": "{\"__index\":2,\"﻿username\":\"Bob\",\"pass\":\"Bob\",\"credit\":\"3000\",\"debit\":\"300\",\"url\":\"https://qas.qmetry.com/bank-new\"}",
+            "tcId": "9",
+            "tsId": 8,
+            "testData": true,
+            "tdId": 2,
+            "duration": 7003000000,
+            "executedOn": "2022-04-22T05:47:11.223Z",
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Click",
+            "element": "credit",
+            "eArray": [
+                [
+                    "accessibility id=credit",
+                    "accessibility id"
+                ],
+                [
+                    "id=com.qmetry.bank.bankingapplication:id/credit",
+                    "id"
+                ],
+                [
+                    "xpath=//android.widget.Button[@content-desc='credit']",
+                    "xpath"
+                ],
+                [
+                    "credit",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "credit",
+            "elementDesc": "credit",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null,
+            "arg": "{\"__index\":2,\"﻿username\":\"Bob\",\"pass\":\"Bob\",\"credit\":\"3000\",\"debit\":\"300\",\"url\":\"https://qas.qmetry.com/bank-new\"}",
+            "tcId": "9",
+            "tsId": 8,
+            "testData": true,
+            "tdId": 2,
+            "duration": 632000000,
+            "executedOn": "2022-04-22T05:47:11.855Z",
+            "errMessage": "",
+            "isRowExpanded": false
+        }
+    ],
+    "type": "android",
+    "capabilities": {
+        "command": "start",
+        "capObj": {
+            "perfectoServer": {
+                "host": "",
+                "securityToken": "",
+                "https": true
+            },
+            "lambdaServer": {
+                "username": "",
+                "accessToken": ""
+            },
+            "desiredCapabilities": {
+                "platformVersion": "",
+                "app": "",
+                "appPackage": "com.qmetry.bank.bankingapplication",
+                "appActivity": "com.qmetry.bank.bankingapplication.HomePageActivity",
+                "deviceName": "",
+                "udid": "emulator-5554",
+                "noReset": true,
+                "automationName": "UiAutomator2",
+                "browserName": "",
+                "fullReset": false,
+                "autoWebview": false,
+                "newCommandTimeout": "3000",
+                "idleTimeout": "3000",
+                "platformName": "Android"
+            },
+            "type": "automaticServer",
+            "host": "localhost",
+            "port": "4723",
+            "path": "/wd/hub",
+            "desiredCapabilitiesType": {
+                "platformVersion": "text",
+                "app": "path",
+                "appPackage": "text",
+                "appActivity": "text",
+                "deviceName": "text",
+                "udid": "text",
+                "noReset": "boolean",
+                "automationName": "text",
+                "browserName": "text",
+                "fullReset": "boolean",
+                "autoWebview": "boolean",
+                "newCommandTimeout": "number",
+                "idleTimeout": "number",
+                "platformName": "text"
+            }
+        },
+        "type": "android",
+        "isMobileWebOnDevice": false,
+        "name": "AndroidEmulator"
+    },
+    "testData": "Users/saurabhpisal/Documents/QAS/Test Data.csv",
+    "testDataExample": [],
+    "isTCValid": true,
+    "externalTestData": true,
+    "dbDetails": {},
+    "recordSessionType": "multiple",
+    "tags": [],
+    "description": "",
+    "shared": false,
+    "executionStatus": "NotRun"
+}

@@ -1,0 +1,321 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "credit",
+    "line": 17,
+    "description": "",
+    "id": "credit",
+    "tags": [],
+    "uri": "Mobile Web/credit",
+    "testSuiteName": "Mobile Web",
+    "type": "mobileweb",
+    "appName": "-mob",
+    "capability": {
+      "remoteUrl": "https://qas.qmetry.com/bank-new",
+      "type": "mobileweb",
+      "selectBrowser": "chrome",
+      "selectDevice": "iPhone X",
+      "isRemote": false,
+      "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+      "isDebugMode": false,
+      "details": {
+        "deviceMetrics": {
+          "name": "iPhone X",
+          "width": 375,
+          "height": 812,
+          "pixelRatio": 3,
+          "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+        }
+      },
+      "capObj": {
+        "perfectoServer": {
+          "host": "",
+          "securityToken": "",
+          "https": true
+        },
+        "lambdaServer": {
+          "username": "",
+          "accessToken": ""
+        },
+        "desiredCapabilities": {
+          "platformVersion": "",
+          "app": "",
+          "appPackage": "com.qmetry.bank.bankingapplication",
+          "appActivity": "com.qmetry.bank.bankingapplication.HomePageActivity",
+          "deviceName": "",
+          "udid": "emulator-5554",
+          "noReset": true,
+          "automationName": "UiAutomator2",
+          "browserName": "",
+          "fullReset": false,
+          "autoWebview": false,
+          "newCommandTimeout": "3000",
+          "idleTimeout": "3000",
+          "platformName": "Android"
+        },
+        "type": "automaticServer",
+        "host": "localhost",
+        "port": "4723",
+        "path": "/wd/hub",
+        "desiredCapabilitiesType": {
+          "platformVersion": "text",
+          "app": "path",
+          "appPackage": "text",
+          "appActivity": "text",
+          "deviceName": "text",
+          "udid": "text",
+          "noReset": "boolean",
+          "automationName": "text",
+          "browserName": "text",
+          "fullReset": "boolean",
+          "autoWebview": "boolean",
+          "newCommandTimeout": "number",
+          "idleTimeout": "number",
+          "platformName": "text"
+        }
+      },
+      "isMobileWebOnDevice": true
+    },
+    "desiredCapabilities": {
+      "platformVersion": "",
+      "app": "",
+      "appPackage": "com.qmetry.bank.bankingapplication",
+      "appActivity": "com.qmetry.bank.bankingapplication.HomePageActivity",
+      "deviceName": "",
+      "udid": "emulator-5554",
+      "noReset": true,
+      "automationName": "UiAutomator2",
+      "browserName": "",
+      "fullReset": false,
+      "autoWebview": false,
+      "newCommandTimeout": "3000",
+      "idleTimeout": "3000",
+      "platformName": "Android"
+    },
+    "elements": [
+      {
+        "id": "credit",
+        "keyword": "Scenario",
+        "description": "",
+        "line": 17,
+        "name": "credit",
+        "type": "scenario",
+        "testData": "",
+        "executionStatus": "NotRun",
+        "tagName": [],
+        "capability": {
+          "remoteUrl": "https://qas.qmetry.com/bank-new",
+          "type": "mobileweb",
+          "selectBrowser": "chrome",
+          "selectDevice": "iPhone X",
+          "isRemote": false,
+          "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+          "isDebugMode": false,
+          "details": {
+            "deviceMetrics": {
+              "name": "iPhone X",
+              "width": 375,
+              "height": 812,
+              "pixelRatio": 3,
+              "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+            }
+          },
+          "capObj": {
+            "perfectoServer": {
+              "host": "",
+              "securityToken": "",
+              "https": true
+            },
+            "lambdaServer": {
+              "username": "",
+              "accessToken": ""
+            },
+            "desiredCapabilities": {
+              "platformVersion": "",
+              "app": "",
+              "appPackage": "com.qmetry.bank.bankingapplication",
+              "appActivity": "com.qmetry.bank.bankingapplication.HomePageActivity",
+              "deviceName": "",
+              "udid": "emulator-5554",
+              "noReset": true,
+              "automationName": "UiAutomator2",
+              "browserName": "",
+              "fullReset": false,
+              "autoWebview": false,
+              "newCommandTimeout": "3000",
+              "idleTimeout": "3000",
+              "platformName": "Android"
+            },
+            "type": "automaticServer",
+            "host": "localhost",
+            "port": "4723",
+            "path": "/wd/hub",
+            "desiredCapabilitiesType": {
+              "platformVersion": "text",
+              "app": "path",
+              "appPackage": "text",
+              "appActivity": "text",
+              "deviceName": "text",
+              "udid": "text",
+              "noReset": "boolean",
+              "automationName": "text",
+              "browserName": "text",
+              "fullReset": "boolean",
+              "autoWebview": "boolean",
+              "newCommandTimeout": "number",
+              "idleTimeout": "number",
+              "platformName": "text"
+            }
+          },
+          "isMobileWebOnDevice": true
+        },
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "",
+            "line": 1,
+            "name": "ShrdMobileLogin",
+            "match": {
+              "location": "credit/01"
+            },
+            "result": {
+              "status": "failed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 2,
+            "name": "click on link..accounts.",
+            "match": {
+              "location": "credit/11"
+            },
+            "result": {
+              "status": "notrun"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 3,
+            "name": "click on html.jobroleautomationengineerlogoutbobsavingaccountaccountsuseridbobnamebobemailbob.qmetry.comphone1234567890totalavailablebalance65194accountopeningdate15aug2012checkmybalancewithdrawnwithdrawndepositedeposite",
+            "match": {
+              "location": "credit/21"
+            },
+            "result": {
+              "status": "notrun"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 4,
+            "name": "Drag And Drop html.jobroleautomationengineerlogoutbobsavingaccountaccountsuseridbobnamebobemailbob.qmetry.comphone1234567890totalavailablebalance65194accountopeningdate15aug2012checkmybalancewithdrawnwithdrawndepositedeposite_1 xpath=//html",
+            "match": {
+              "location": "credit/31"
+            },
+            "result": {
+              "status": "notrun"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 5,
+            "name": "clear number.txtdeposite",
+            "match": {
+              "location": "credit/41"
+            },
+            "result": {
+              "status": "notrun"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 6,
+            "name": "sendKeys ${credit} into number.txtdeposite",
+            "match": {
+              "location": "credit/51"
+            },
+            "result": {
+              "status": "notrun"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 7,
+            "name": "click on button.btndeposite",
+            "match": {
+              "location": "credit/61"
+            },
+            "result": {
+              "status": "notrun"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 8,
+            "name": "click on div.personal-tab",
+            "match": {
+              "location": "credit/71"
+            },
+            "result": {
+              "status": "notrun"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 9,
+            "name": "clear number.txtwithdrawn",
+            "match": {
+              "location": "credit/81"
+            },
+            "result": {
+              "status": "notrun"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 10,
+            "name": "sendKeys ${debit} into number.txtwithdrawn",
+            "match": {
+              "location": "credit/91"
+            },
+            "result": {
+              "status": "notrun"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 11,
+            "name": "click on button.btnwithdrawn",
+            "match": {
+              "location": "credit/101"
+            },
+            "result": {
+              "status": "notrun"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 12,
+            "name": "click on button.logout",
+            "match": {
+              "location": "credit/111"
+            },
+            "result": {
+              "status": "notrun"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
